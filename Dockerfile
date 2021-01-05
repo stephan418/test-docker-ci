@@ -5,6 +5,7 @@ RUN npm i -g ts-node@9.1.1
 RUN mkdir /home/app
 
 COPY . /home/app
+RUN echo test
 
 WORKDIR /home/app
 RUN npm i
